@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Aura Catering | Luxury Catering Experience</title>
+  <meta name="description" content="Prime Aura Catering delivers luxury catering experiences for corporate events, weddings, and private celebrations.">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Intro Overlay with Animated Logo Video -->
+  <div id="intro-overlay">
+    <video id="intro-video" autoplay muted playsinline>
+      <source src="assets/logo-intro.mp4" type="video/mp4" />
+      <!-- Fallback: show static logo if video can't play -->
+    </video>
+    <div class="intro-logo-fallback">
+      <img src="assets/logo.png" alt="Prime Aura Catering Logo" />
+    </div>
+  </div>
+  <!-- Main Site Wrapper -->
+  <header class="site-header">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Prime Aura Catering Logo" />
+      <span>Prime Aura Catering</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#menus">Menus</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="pricing-guide.html" class="btn-outline small">Pricing Booklet</a>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Luxury Catering • Elevated Experience</p>
+      <h1>Prime Aura Catering</h1>
+      <p class="hero-subtitle">
+        A curated, high-end dining experience for corporate events, weddings, and private celebrations.
+      </p>
+      <div class="hero-actions">
+        <a href="#menus" class="btn-primary">View Signature Menus</a>
+        <a href="#contact" class="btn-secondary">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="section section-dark">
+    <div class="section-inner">
+      <div class="section-text">
+        <h2>About Prime Aura</h2>
+        <p>
+          Prime Aura Catering was created to bring a luxury, restaurant-quality experience
+          directly to your event. From corporate functions and galas to intimate private dinners,
+          every menu is designed with intention, flavor, and presentation in mind.
+        </p>
+        <p>
+          Our signature smoked turkey & collard green egg rolls have become a crowd favorite,
+          and our curated buffet options make it effortless to host an unforgettable experience.
+        </p>
+      </div>
+      <div class="section-highlight-card">
+        <h3>Why Clients Choose Us</h3>
+        <ul>
+          <li>Thoughtfully curated soul-inspired menus</li>
+          <li>Luxury black & gold aesthetic and display</li>
+          <li>Professional setup and guest-ready presentation</li>
+          <li>Clear pricing and transparent communication</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Menus Section -->
+  <section id="menus" class="section section-light">
+    <div class="section-inner">
+      <h2>Signature Buffet Menus</h2>
+      <p class="section-intro">
+        All menus are designed for 125 guests and include our signature smoked turkey & collard green egg rolls.
+      </p>
+      <div class="cards-grid">
+        <!-- Option 1 -->
+        <article class="card">
+          <h3>Southern Soul Buffet</h3>
+          <p class="price-tag">$1,400</p>
+          <ul>
+            <li>Smoked Turkey & Collard Green Egg Rolls</li>
+            <li>BBQ Pulled Chicken</li>
+            <li>Baked Mac & Cheese</li>
+            <li>Seasoned Green Beans</li>
+            <li>Sweet Rolls</li>
+          </ul>
+          <p class="card-note">Perfect for casual corporate events & celebrations that want maximum flavor and value.</p>
+        </article>
+        <!-- Option 2 -->
+        <article class="card">
+          <h3>Signature Dinner Buffet</h3>
+          <p class="price-tag">$1,500</p>
+          <ul>
+            <li>Smoked Turkey & Collard Green Egg Rolls</li>
+            <li>Herb-Roasted Chicken</li>
+            <li>Cajun Alfredo Pasta w/ Chicken Sausage</li>
+            <li>Roasted Vegetables</li>
+            <li>Roasted Garlic Mashed Potatoes</li>
+          </ul>
+          <p class="card-note">A balanced, elevated menu with bold flavors and upscale presentation.</p>
+        </article>
+        <!-- Option 3 -->
+        <article class="card">
+          <h3>Premium Upscale Buffet</h3>
+          <p class="price-tag">$1,650</p>
+          <ul>
+            <li>Smoked Turkey & Collard Green Egg Rolls</li>
+            <li>Mini Honey Cornbread Muffins</li>
+            <li>Smothered Chicken</li>
+            <li>Creamy Cajun Pasta</li>
+            <li>Rice Pilaf</li>
+            <li>Steamed Broccoli</li>
+            <li>Assorted Cookies</li>
+          </ul>
+          <p class="card-note">Ideal for milestone events, VIP experiences, and luxury occasions.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing Section (Summary + Link to Booklet) -->
+  <section id="pricing" class="section section-dark">
+    <div class="section-inner">
+      <h2>Pricing & Packages</h2>
+      <p class="section-intro">
+        Our pricing is designed to be transparent, flexible, and easy to understand.
+        Below is a high-level overview. For full details, view the Pricing Guideline Booklet.
+      </p>
+      <div class="pricing-columns">
+        <div class="pricing-column">
+          <h3>Base Packages</h3>
+          <ul>
+            <li>Southern Soul Buffet – starting at $1,400</li>
+            <li>Signature Dinner Buffet – starting at $1,500</li>
+            <li>Premium Upscale Buffet – starting at $1,650</li>
+          </ul>
+        </div>
+        <div class="pricing-column">
+          <h3>What’s Included</h3>
+          <ul>
+            <li>Menu planning & preparation</li>
+            <li>Delivery & buffet-style setup</li>
+            <li>Disposable plates, cutlery & napkins</li>
+            <li>Chafing dishes & fuel</li>
+          </ul>
+        </div>
+        <div class="pricing-column">
+          <h3>Extras & Add-Ons</h3>
+          <ul>
+            <li>Additional appetizers or dessert options</li>
+            <li>Staffing & on-site service upgrades</li>
+            <li>Custom menu design for your event</li>
+          </ul>
+        </div>
+      </div>
+      <a href="pricing-guide.html" class="btn-primary">
+        View Full Pricing Guideline Booklet
+      </a>
+    </div>
+  </section>
+  <!-- Gallery Section (placeholder, you can swap images later) -->
+  <section id="gallery" class="section section-light">
+    <div class="section-inner">
+      <h2>Gallery</h2>
+      <p class="section-intro">
+        A glimpse into the Prime Aura Catering experience. Replace these with your real event photos.
+      </p>
+      <div class="gallery-grid">
+        <div class="gallery-item">Egg Rolls Display</div>
+        <div class="gallery-item">Buffet Layout</div>
+        <div class="gallery-item">Plated Dinner</div>
+        <div class="gallery-item">Dessert Spread</div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="section section-dark">
+    <div class="section-inner contact-grid">
+      <div>
+        <h2>Request a Quote</h2>
+        <p>
+          Ready to elevate your next event? Share a few details below and we’ll follow up
+          with a customized proposal.
+        </p>
+        <ul class="contact-info">
+          <li><strong>Email:</strong> primeauracatering@email.com</li>
+          <li><strong>Phone:</strong> (555) 555-5555</li>
+          <li><strong>Location:</strong> [Your City, State]</li>
+        </ul>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! We will reach out shortly.');">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Event Date
+          <input type="date" name="date" />
+        </label>
+        <label>
+          Guest Count
+          <input type="number" name="guests" min="10" />
+        </label>
+        <label>
+          Message / Event Details
+          <textarea name="message" rows="4" placeholder="Tell us about your event..."></textarea>
+        </label>
+        <button type="submit" class="btn-primary full-width">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Prime Aura Catering. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
