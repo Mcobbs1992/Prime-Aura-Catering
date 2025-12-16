@@ -58,6 +58,8 @@ img {
 }
 .intro-logo-fallback img {
   max-width: 260px;
+  border: none !important;
+  box-shadow: none !important;
 }
 /* Header */
 .site-header {
